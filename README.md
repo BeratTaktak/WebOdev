@@ -1,12 +1,16 @@
 # WebOdev
 
-Bu projede Süperlig ile ilgili sayfalar bulunmaktadır
+Bu proje Süperlig ile ilgilidir.
 
 Haftanın Maçları 
 
 Ligin En Değerli 11'i
 
-23-24  24-25  25-26 Sezonları Puan Durumu
+23-24, 24-25, 25-26 Sezonları Puan Durumu
+
+Haber Sayfaları
+
+Bulunmaktadır.
 
 
 Berat Taktak	
