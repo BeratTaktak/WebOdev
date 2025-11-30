@@ -1,24 +1,62 @@
+header {
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #bfaf94;
+	border-style: double;
+	border-width: 10px;
+	border-color: #541500;
+	border-radius: 30px;
+	text-align: center;
+	}
+
+
+
+
 body {
 	
-	background-color: #52514a;
+	background-color: #233b3b;
+
+	}
+	
+#puandurumuheader{
+	
+	background-color: #bfaf94;
+	border-style: double;
+	border-width: 10px;
+	border-color: #541500;
+	border-radius: 30px;
+	text-align: center;
+	
+	
+}
+	
+.haberMetni {
+	
+	color: white;
+	font-size: 20px;
 	
 	}
 	
-.metin1 {
+.haberBaslıgı {
 	
 	color: white;
+	font-size: 45px;
 	
 	}
 	
 .links {
 	
 	color: #12d8f2;
+	font-size: 25px;
 	
 	}
 	
 .ust_baslik {
 	
-	color: #d4ca45;
+	color: #541500;
 	
 	}
 	
@@ -29,11 +67,37 @@ body {
 	
 	}
 	
-.genel_yazi_rengi {
+.puan_tablosu {
 	
 	color:#eeffb5;
+	font-size: 20px;
 	
 	}
+	
+.haftanin_maclari_tablo {
+	
+	color:#eeffb5;
+	font-size: 20px;
+	
+	}
+	
+.en_degerli_11 {
+	
+	color:#eeffb5;
+	font-size: 20px;
+
+	}
+	
+.oyuncu_resimleri{
+	
+	border-Style: solid;
+	border-radius: 10px;
+	border-color: white
+	
+	
+	
+	}
+
 	
 /* daha sonra kullanılabilecek renkler	#d6cb2d #a39d4d */
 
