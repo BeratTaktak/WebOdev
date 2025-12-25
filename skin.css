@@ -1,36 +1,38 @@
 header {
 	
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 30px;
-	padding-right: 30px;
-	background-color: #bfaf94;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #edf2f4;
 	border-style: double;
 	border-width: 10px;
-	border-color: #541500;
+	border-color: #1d1e27;
 	border-radius: 30px;
 	text-align: center;
+	margin: 10px 110px;
+	
 	}
 
 
 
 
 body {
-	
-	background-color: #233b3b;
+	padding-top: 10px;
+	background-color: #1d1e27;
 
 	}
 	
 #puandurumuheader{
 	
-	background-color: #bfaf94;
+	background-color: #edf2f4;
 	border-style: double;
 	border-width: 10px;
-	border-color: #541500;
+	border-color: #1d1e27;
 	border-radius: 30px;
 	text-align: center;
-	
-	
+	color:black;
+	margin:10px 350px;	
 }
 	
 .haberMetni {
@@ -56,23 +58,18 @@ body {
 	
 .ust_baslik {
 	
-	color: #541500;
+	color: black;
+	font-size: 30px;
 	
 	}
 	
-.puan_durumu_baslik {
+.alt_baslik {
 	
-	
-	color: white;
-	
-	}
-	
-.puan_tablosu {
-	
-	color:#eeffb5;
-	font-size: 20px;
+	color: #de4242;
+	font-size: 25px;
 	
 	}
+	
 	
 .haftanin_maclari_tablo {
 	
