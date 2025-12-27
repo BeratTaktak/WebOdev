@@ -538,18 +538,151 @@ footer {
 	
 .arama-butonu {
 		
-	background-color: #d90429; /* Kırmızı renk */
+	background-color: #d90429; 
 	color: white;
 	border: none;
 	padding: 10px 20px;
-	margin-left: 10px; /* Input ile arasında boşluk olsun */
+	margin-left: 10px; 
 	border-radius: 5px;
 	font-size: 16px;
 	font-weight: bold;
-	cursor: pointer; /* Üzerine gelince el işareti */
+	cursor: pointer; 
 	font-family: Arial, sans-serif;
-	transition: background-color 0.3s;
+
 	}
 
 
 
+
+
+
+
+
+/* İSTATİSTİKLER SAYFASI -------------------------------------------------------------------------------------------- */
+
+
+.ist-kapsayici {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.ist-baslik {
+    text-align: center;
+    margin: 30px 450px 15px 450px;
+	border: 3px solid #f5f5f5;
+	border-radius: 30px;
+	
+}
+
+.ist-baslik h1 {
+    color: white;
+    font-size: 28px;
+}
+
+.ist-tablo {
+    width: 100%;
+    background-color: #f5f5f5;
+    color: white;
+	border-collapse: collapse; /* Tablo etrafındaki çizgileri kaldırıyor */
+}
+
+.ist-tablo th {
+    background-color: #d90429;
+    color: #f5f5f5;
+    padding: 12px;
+	border-bottom: 4px solid #1d1e27;
+}
+
+.ist-tablo td {
+    padding: 12px;
+    border-bottom: 1px solid gray;
+	color:#1d1e27;
+}
+
+.ist-sol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.ist-takim {
+    text-align: center;
+}
+
+.ist-oyuncu {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.ist-skor {
+    text-align: center;
+    font-weight: bold;
+    color: #66fcf1;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/* NOSTALJİ SAYFASI  ----------------------------------------------------------------------------------- */
+
+.nos-kapsayici {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nos-baslik-kutusu {
+    margin: 40px auto;
+    border: 3px solid #d4af37;
+    border-radius: 30px;
+    display: table;
+    padding: 0 40px;
+	background-color:#f5f5f5;
+}
+
+.nos-baslik-kutusu h1 {
+    color: #d4af37;
+    font-size: 35px;
+}
+
+.nos-galeri {
+    width: 100%;
+    text-align: center;
+}
+
+.nos-kart {
+    display: inline-block;
+    width: 280px;
+    margin: 20px;
+    background-color: #1a1a1a;
+    border: 2px solid #d4af37;
+}
+
+.nos-resim {
+    width: 280px;
+    height: 300px;
+    display: block;
+    border-bottom: 2px solid #d4af37;
+}
+
+.nos-bilgi {
+    padding: 15px;
+}
+
+.nos-isim {
+    color: #d4af37;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nos-aciklama {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.4;
+}
