@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<script>
+		
+			function sayfaDegistir() {
+
+				var girilen = document.getElementById("dizilisKutusu").value;
+
+				if (girilen == "4-4-2" || girilen == "442") {
+					window.location.href = "en_degerli_442.html";
+				} 
+				else if (girilen == "3-4-1-2" || girilen == "3412") {
+					window.location.href = "en_degerli_3412.html";
+				}
+				else if (girilen == "3-4-2-1" || girilen == "3421") {
+					window.location.href = "en_degerli_3421.html";
+				}
+				else if (girilen == "4-2-3-1" || girilen == "4231") {
+					window.location.href = "en_degerli_4231.html";
+				}
+				else {
+				
+					alert("Lütfen geçerli bir diziliş giriniz! ( 4-4-2, 3-4-1-2, 3-4-2-1 veya 4-2-3-1 )");
+				}
+			}
+			
+		</script>
+			
+		<title>Süperlig En Değerli 4-4-2</title>
+		<link rel="stylesheet" href="skin.css">
+		
+	</head>
+	
+	<body>
+	
+		<header>
+		
+			<div>
+			
+				<img src="Resimler/SüperligLogo.png" alt="Süperlig Logo" width="300px" height="119px">
+				
+				<nav class="ana-menu">
+					<a class="ust_baslik" href="anasayfa.html">ANA SAYFA</a>
+					<a class="ust_baslik" href="25-26_puan_durumu.html">PUAN DURUMU</a>
+					<a class="ust_baslik" href="haftanin_maclari.html">HAFTANIN MAÇLARI</a>
+					<a class="ust_baslik" href="en_degerli_4231.html">EN DEĞERLİ 11</a>
+				</nav>
+				
+			</div>
+			
+		</header>
+		
+	
+		<h1 style="color: white; font-size: 40px; text-align: center; margin-top: 30px;">LİGİN EN DEĞERLİ 11'İ</h1>
+
+		<div class="arama-box">
+		
+			<h3 style="color: white; margin-bottom: 10px;">Diziliş Seçin:</h3>
+			
+			<input type="text" class="arama-girisi" id="dizilisKutusu" placeholder="Örn: 4-4-2">
+			
+			<button class="arama-butonu" onclick="sayfaDegistir()">OLUŞTUR</button>
+			
+			<p style="color: #eeffb5; font-size: 30px; margin-top: 15px;">(Mevcut sayfalar: 4-2-3-1, 4-4-2, 3-4-2-1, 3-4-1-2)</p>
+			
+		</div>
+
+		<h1 style="color: white; font-size: 40px; text-align: center; margin-top: 30px;">4-4-2 --- 297 mil €</h1>
+
+		<div style="text-align: center; margin-bottom: 40px;">
+		
+			<img src="Resimler/4-4-2.png" alt="Saha Dizilişi" width="600" style="border: 2px solid white; border-radius: 5px;">
+		
+		</div>
+
+
+		<div class="oyuncular-grid">
+		
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/Ederson.png">
+				<div class="oyuncu-adı">EDERSON</div>
+				<p class="bilgiler"><b>Uyruk:</b> Brezilya</p>
+				<p class="bilgiler"><b>Takım:</b> Fenerbahçe</p>
+				<p class="bilgiler"><b>Mevki:</b> Kaleci</p>
+				<p class="bilgiler"><b>Yaş:</b> 32</p>
+				<div class="deger">15.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/W.Singo.png">
+				<div class="oyuncu-adı">WILFRIED SINGO</div>
+				<p class="bilgiler"><b>Uyruk:</b> Fildişi Sahili</p>
+				<p class="bilgiler"><b>Takım:</b> Galatasaray</p>
+				<p class="bilgiler"><b>Mevki:</b> Sağ Bek</p>
+				<p class="bilgiler"><b>Yaş:</b> 24</p>
+				<div class="deger">28.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/D.Sanchez.png">
+				<div class="oyuncu-adı">D. SÁNCHEZ</div>
+				<p class="bilgiler"><b>Uyruk:</b> Kolombiya</p>
+				<p class="bilgiler"><b>Takım:</b> Galatasaray</p>
+				<p class="bilgiler"><b>Mevki:</b> Stoper</p>
+				<p class="bilgiler"><b>Yaş:</b> 29</p>
+				<div class="deger">20.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/J.Oosterwolde.png">
+				<div class="oyuncu-adı">J. OOSTERWOLDE</div>
+				<p class="bilgiler"><b>Uyruk:</b> Hollanda</p>
+				<p class="bilgiler"><b>Takım:</b> Fenerbahçe</p>
+				<p class="bilgiler"><b>Mevki:</b> Stoper</p>
+				<p class="bilgiler"><b>Yaş:</b> 24</p>
+				<div class="deger">16.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/A.Brown.png">
+				<div class="oyuncu-adı">ARCHIE BROWN</div>
+				<p class="bilgiler"><b>Uyruk:</b> İngiltere</p>
+				<p class="bilgiler"><b>Takım:</b> Fenerbahçe</p>
+				<p class="bilgiler"><b>Mevki:</b> Sol Bek</p>
+				<p class="bilgiler"><b>Yaş:</b> 23</p>
+				<div class="deger">10.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/O.Kökçü.png">
+				<div class="oyuncu-adı">ORKUN KÖKÇÜ</div>
+				<p class="bilgiler"><b>Uyruk:</b> Türkiye</p>
+				<p class="bilgiler"><b>Takım:</b> Beşiktaş</p>
+				<p class="bilgiler"><b>Mevki:</b> Merkez O.S.</p>
+				<p class="bilgiler"><b>Yaş:</b> 24</p>
+				<div class="deger">28.00 mil €</div>
+				
+			</div>
+			
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/E.Alvarez.png">
+				<div class="oyuncu-adı">EDSON ALVAREZ</div>
+				<p class="bilgiler"><b>Uyruk:</b> Meksika</p>
+				<p class="bilgiler"><b>Takım:</b> Fenerbahçe</p>
+				<p class="bilgiler"><b>Mevki:</b> Ön Libero</p>
+				<p class="bilgiler"><b>Yaş:</b> 28</p>
+				<div class="deger">24.00 mil €</div>
+				
+			</div>
+			
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/B.A.Y.png">
+				<div class="oyuncu-adı">BARIŞ ALPER</div>
+				<p class="bilgiler"><b>Uyruk:</b> Türkiye</p>
+				<p class="bilgiler"><b>Takım:</b> Galatasaray</p>
+				<p class="bilgiler"><b>Mevki:</b> Sol Kanat</p>
+				<p class="bilgiler"><b>Yaş:</b> 25</p>
+				<div class="deger">24.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/L.Sane.png">
+				<div class="oyuncu-adı">LEROY SANÉ</div>
+				<p class="bilgiler"><b>Uyruk:</b> Almanya</p>
+				<p class="bilgiler"><b>Takım:</b> Galatasaray</p>
+				<p class="bilgiler"><b>Mevki:</b> Sağ Kanat</p>
+				<p class="bilgiler"><b>Yaş:</b> 29</p>
+				<div class="deger">25.00 mil €</div>
+				
+			</div>
+			
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/J.Duran.png">
+				<div class="oyuncu-adı">JHON DURAN</div>
+				<p class="bilgiler"><b>Uyruk:</b> Kolombiya</p>
+				<p class="bilgiler"><b>Takım:</b> Fenerbahçe</p>
+				<p class="bilgiler"><b>Mevki:</b> Santrafor</p>
+				<p class="bilgiler"><b>Yaş:</b> 22</p>
+				<div class="deger">32.00 mil €</div>
+				
+			</div>
+
+
+			<div class="oyuncu-kutusu">
+			
+				<img class="oyuncu-resmi" src="Resimler/V.Osimhen.png">
+				<div class="oyuncu-adı">VICTOR OSIMHEN</div>
+				<p class="bilgiler"><b>Uyruk:</b> Nijerya</p>
+				<p class="bilgiler"><b>Takım:</b> Galatasaray</p>
+				<p class="bilgiler"><b>Mevki:</b> Santrafor</p>
+				<p class="bilgiler"><b>Yaş:</b> 26</p>
+				<div class="deger">75.00 mil €</div>
+				
+			</div>
+			
+		</div>
+
+
+		<footer>
+		
+			<div class="footer-icerik">
+
+				<div class="footer-bolum">
+					<h3>HIZLI ERİŞİM</h3>
+					<a class="footer-link" href="anasayfa.html">Ana Sayfa</a>
+				</div>
+				
+				<div class="footer-bolum">
+					<h3>ÖZEL BOYKOT LİSTESİ VE GÖRÜNÜTLERİ</h3>
+					<a class="footer-link" href="BOYKOT.html">Görüntüle</a>
+				</div>
+				
+				<div class="footer-bolum">
+					<h3>HAZIRLAYAN</h3>
+					<p>Berat Taktak</p>
+					<p>25151513007</p>
+				</div>
+				
+			</div>
+			
+		</footer>
+		
+	</body>
+	
+</html>

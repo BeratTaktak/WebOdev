@@ -1,14 +1,16 @@
 # WebOdev
 
-Bu proje Süperlig ile ilgilidir.
+Bu proje Süperlig ile ilgili bilgiler ve haberler taşımaktadır.
 
-Haftanın Maçları 
+Haftanın Maçları, 
 
-Ligin En Değerli 11'i
+Farklı dizilişler ile ligin En Değerli 11'leri,
 
-23-24, 24-25, 25-26 Sezonları Puan Durumu
+23-24, 24-25, 25-26 Sezonları Puan Durumu,
 
-Haber Sayfaları  Bulunmaktadır.
+Haber Sayfaları,
+
+VE ÇOK ÇOK ÇOK ÇOK ÖNEMİLİ BİR BOYKOT SAYFASI BULUNDURMAKTADIR.
 
 
 

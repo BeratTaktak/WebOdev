@@ -1,100 +1,555 @@
-header {
-	
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 5px;
-	padding-right: 5px;
-	background-color: #edf2f4;
-	border-style: double;
-	border-width: 10px;
-	border-color: #1d1e27;
-	border-radius: 30px;
-	text-align: center;
-	margin: 10px 110px;
-	
-	}
-
-
-
-
 body {
+	
 	padding-top: 10px;
 	background-color: #1d1e27;
+	margin: 0px;  
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	}
+	
 
+
+
+
+
+
+
+/* HEADER -------------------------------------------------------------------------------------------- */
+
+header {
+	
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0;
+	width: 100%;
+	}
+
+header div {
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
 	}
 	
-#puandurumuheader{
+.ana-menu {
 	
-	background-color: #edf2f4;
-	border-style: double;
-	border-width: 10px;
-	border-color: #1d1e27;
-	border-radius: 30px;
-	text-align: center;
-	color:black;
-	margin:10px 350px;	
-}
-	
-.haberMetni {
-	
-	color: white;
-	font-size: 20px;
-	
+	display: flex;
+	gap: 30px; /* Kelimeler arası boşluk koymaya yarıyor */
 	}
-	
-.haberBaslıgı {
-	
-	color: white;
-	font-size: 45px;
-	
-	}
-	
-.links {
-	
-	color: #12d8f2;
-	font-size: 25px;
-	
-	}
-	
+
 .ust_baslik {
 	
-	color: black;
-	font-size: 30px;
-	
-	}
-	
-.alt_baslik {
-	
-	color: #de4242;
-	font-size: 25px;
-	
-	}
-	
-	
-.haftanin_maclari_tablo {
-	
-	color:#eeffb5;
-	font-size: 20px;
-	
-	}
-	
-.en_degerli_11 {
-	
-	color:#eeffb5;
-	font-size: 20px;
 
+	color: #333;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
 	}
 	
-.oyuncu_resimleri{
 	
-	border-Style: solid;
+	
+	
+	
+	
+	
+	
+/* ANA MENÜ HABERLER  ----------------------------------------------------------------------------------- */
+
+div.Space {
+	
+	background-color: #4b4e53;
+	border-style: double;
 	border-radius: 10px;
-	border-color: white
+	border-width: 4px;
+	border-color: #1d1e27;
+	padding: 25px;
+	margin: 40px 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	grid-template-areas: 
+		"Baslık Baslık"
+		"Resim1 Resim2"
+		"Yazı1 Yazı2";
+	text-align: center;
+	gap: 20px;
+	}
+
+.B1 {
 	
+	grid-area: Baslık;
+	background-color: #f5f5f5;
+	border-radius: 30px;
+	border-color: #4b4e53;
+	border-style: double;
+	border-width: 8px;
+	margin: 0 auto 20px auto; 
+	width: 60%;
+	}
+
+.R1 {
 	
+	grid-area: Resim1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+.R2 {
+	
+	grid-area: Resim2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+.R1 img, .R2 img {
+	
+	width: 100%;
+	max-width: 600px;
+	border: 2px solid #edf2f4;
+	border-radius: 10px;
+	}
+
+.Y1 {
+	
+	grid-area: Yazı1;
+	padding: 10px;
+	}
+
+.Y2 {
+	
+	grid-area: Yazı2;
+	padding: 10px;
+	}
+
+.haberBaslıgı {
+	
+	font-size: 24px;
+	color: white;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	border-bottom: solid #1d1e27; 
+	}
+
+.haberMetni {
+	
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #edf2f4;
+	line-height: 1.6;
+	margin-bottom: 15px;
+	}
+
+.links {
+	
+	color: #ffb703;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	}
+
+
+/* HABER SAYFALARI -------------------------------------------------------------------------------------------------- */
+
+
+.haber-tumu {
+	
+	width: 80%;
+	margin: 30px auto;
+	background-color: #4b4e53;
+	border: 4px double #1d1e27;
+	border-radius: 10px;
+	padding: 40px;
+	color: #edf2f4;
+	text-align: left; 
+	}
+
+.haber-ust-baslik {
+	
+	color: #eeffb5; 
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+
+.haber-alt-baslik {
+	
+	color: #eeffb5; 
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #6b6e73;
+	padding-bottom: 10px;
+	}
+
+.haber-metin {
+	
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.8; 
+	color: #edf2f4;
+	margin-bottom: 20px;
+	}
+
+.haber-resim {
+	
+	width: 100%;
+	max-width: 900px;
+	height: auto;
+	border: 4px solid #edf2f4;
+	border-radius: 10px;
+	display: block;
+	margin: 20px auto;
+	}
+
+
+
+
+/* PUAN DURUMU TABLO DÜZENLEMELERİ ----------------------------------------------------------------------------------- */
+
+.sezon-menu {
+	
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 25px;
+	}
+
+.sezon-yazisi {
+	
+	text-decoration: none;
+	background-color: #edf2f4;
+	color: #1d1e27;
+	padding: 10px 25px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	border: 3px solid #1d1e27;
+	font-size: 18px;
+	}
+
+
+.aktif-sezon {
+	
+	background-color: #d90429;
+	color: white;
+	border-color: #edf2f4;
+	}
+
+  	
+.puan-tablosu-tumu {
+		
+    width: 90%;             
+    margin: 40px auto;    
+    background-color: #4b4e53;
+    border: 4px double #1d1e27;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;   /*   Telefonda sayfa patlamasın diye */  
 	
 	}
 
+
+.superlig-tablo {
 	
-/* daha sonra kullanılabilecek renkler	#d6cb2d #a39d4d */
+    width: 100%;            
+    border-collapse: collapse; 
+    color: #edf2f4;        
+    font-size: 20px;     
+	
+	}
+
+
+.superlig-tablo th, 
+.superlig-tablo td {
+	
+    padding: 15px 5px;      
+    text-align: center;     
+    border-bottom: 1px solid #6b6e73;
+
+	}
+
+
+.superlig-tablo thead tr {
+	
+    background-color: #edf2f4;
+    color: #1d1e27;
+    font-size: 24px;
+    border-bottom: 4px double #1d1e27;
+	
+	}
+
+
+.superlig-tablo .takim-ismi {
+	
+    text-align: left;       
+    padding-left: 20px;
+    font-weight: bold;
+	
+	}
+
+
+.superlig-tablo .puan {
+	
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+	
+	}
+	
+
+
+
+
+
+
+/* HAFTANIN MACLARI ----------------------------------------------------------------------------------------------------------------- */
+
+
+.maclar-kutu {
+	
+	width: 80%;
+	margin: 30px auto;
+	background-color: #4b4e53;
+	border: 4px double #1d1e27;
+	border-radius: 10px;
+	padding: 20px;
+	}
+
+.maclar-baslik {
+	
+	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #1d1e27;
+	padding-bottom: 10px;
+	}
+
+.mac-baslik-yazi {
+	
+	color: #eeffb5;
+	font-size: 36px;
+	margin: 0;
+	}
+
+.mac-satir {
+	
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	background-color: #edf2f4;
+	margin-bottom: 15px;
+	padding: 15px 20px;
+	border-radius: 5px;
+	border-left: 10px solid #d90429;
+	
+	}
+
+.mac-tarih-saat {
+	
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #1d1e27;
+	font-size: 18px;
+	width: 340px;
+	}
+
+.mac-eslesme {
+	
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #1d1e27;
+	font-size: 20px;
+	width: 2800px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	}
+
+.takim-adi {
+	
+	color: #1d1e27;
+	text-transform: uppercase;
+	}
+
+.ayrac {
+	
+	color: #d90429;
+	font-weight: bolder;
+	}
+
+	
+/* FOOTER ----------------------------------------------------------------------------------------------------------------- */
+
+footer {
+	
+	background-color: #15161d;
+	border-top: 4px solid #4b4e53;
+	padding: 30px 0;
+	margin-top: 50px;
+	width: 100%;
+	color: #edf2f4;
+	font-family: Arial, sans-serif;
+	}
+
+.footer-icerik {
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	}
+
+.footer-bolum h3 {
+	
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #d90429;
+	}
+
+.footer-bolum p {
+	
+	font-size: 14px;
+	margin: 5px 0;
+	color: #bbbbbb;
+	}
+
+.footer-link {
+	
+	text-decoration: none;
+	color: #edf2f4;
+	font-size: 14px;
+	line-height: 24px;
+	}
+
+
+
+
+
+
+
+
+/* EN İYİ 11 ----------------------------------------------------------------------------------------------------------------- */
+
+.oyuncular-grid {
+	
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr; 
+	gap: 20px; 
+	width: 90%;
+	margin: 0 auto 50px auto;
+	}
+
+
+.oyuncu-kutusu {
+	
+	background-color: #edf2f4; 
+	border: 4px solid #1d1e27; 
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	}	
+
+	}
+
+.oyuncu-resmi {
+	
+	width: 100px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 2px solid #1d1e27;
+	margin-bottom: 10px;
+	background-color: white;
+	}
+
+.oyuncu-adı {
+	
+	background-color: #1d1e27;
+	color: #eeffb5; 
+	width: 100%;
+	padding: 8px 0;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	}
+
+.bilgiler {
+	
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	padding: 5px 0;
+	margin: 0;
+	}
+
+.deger {
+	
+	color: #d90429;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 8px 10px;
+	margin-top: 5px;
+
+	}
+
+
+
+
+
+
+
+
+/* EN İYİ 11 JAVA SCRİPT DÜZENLEMESİ------------------ */
+
+.arama-box {
+	
+	text-align: center;
+	margin: 20px auto;
+	background-color: #4b4e53;
+	padding: 20px;
+	border-radius: 10px;
+	width: 60%;
+	border: 2px solid #1d1e27;
+	}
+
+.arama-girisi {
+	
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	width: 250px;
+	text-align: center;
+	}
+	
+.arama-butonu {
+		
+	background-color: #d90429; /* Kırmızı renk */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	margin-left: 10px; /* Input ile arasında boşluk olsun */
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer; /* Üzerine gelince el işareti */
+	font-family: Arial, sans-serif;
+	transition: background-color 0.3s;
+	}
+
+
 
