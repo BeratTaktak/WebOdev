@@ -9,10 +9,16 @@ body {
 	width: 100%;
 	}
 	
+html {
+
+    overflow-x: hidden; 
+}
 
 
-
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -37,13 +43,16 @@ header div {
 	
 .ana-menu {
 	
+	white-space: normal;
+	text-align: center;
 	display: flex;
 	gap: 30px; /* Kelimeler arası boşluk koymaya yarıyor */
 	}
 
 .ust_baslik {
 	
-
+	display: inline-block; 
+    margin: 5px;
 	color: #333;
 	font-family: Arial, sans-serif;
 	font-weight: bold;
@@ -685,4 +694,14 @@ footer {
     color: #cccccc;
     font-size: 15px;
     line-height: 1.4;
+}
+
+
+
+.ist-kapsayici, .nos-kapsayici, .istatistik-alani, .efsane-izgara, .nos-galeri {
+    
+    width: 95%;
+    max-width: 1200px; 
+    margin: 20px auto; 
+    text-align: center;
 }
