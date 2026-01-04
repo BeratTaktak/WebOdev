@@ -12,6 +12,8 @@ Haber Sayfaları,
 
 VE ÇOK ÇOK ÇOK ÇOK ÖNEMİLİ BİR BOYKOT SAYFASI BULUNDURMAKTADIR.
 
+WEB SİTESİ LİNKİ: https://superligtr.page.gd/index.html
+
 
 
 					Berat Taktak	
